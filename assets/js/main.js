@@ -62,12 +62,26 @@ sr.reveal('.about__text', {delay: 500})
 sr.reveal('.about__social-icon', {delay: 600, interval: 200})
 
 /*SCROLL SKILLS*/
+sr.reveal('.video__title', {delay:400, interval:300})
+sr.reveal('.video__text', {delay:600, interval:300})
+
+/*SCROLL SKILLS*/
 sr.reveal('.skills__subtitle', {})
 sr.reveal('.skills__name', {distance: '20px', delay: 50, interval: 100})
 sr.reveal('.skills__img', {delay: 400})
 
+/*SCROLL MODAL*/
+sr.reveal('.modal__title', {delay: 400})
+sr.reveal('.modal__text', {delay: 800})
+
 /*SCROLL PORTFOLIO*/
 sr.reveal('.portfolio__img', {interval: 200})
+
+/*SCROLL FAQ*/
+sr.reveal('.faq__1', {interval: 200})
+sr.reveal('.faq__2', {interval: 400})
+sr.reveal('.faq__3', {interval: 600})
+sr.reveal('.faq__4', {interval: 800})
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__subtitle', {})
