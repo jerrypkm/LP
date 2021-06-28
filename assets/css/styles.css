@@ -369,6 +369,7 @@ img {
 }
 .footer__link {
   padding: 0.25rem 0;
+  color: #a61b1b;
 }
 .footer__link:hover {
   color: var(--first-color);
@@ -376,6 +377,7 @@ img {
 .footer__social {
   font-size: 1.4rem;
   margin-right: var(--mb-1);
+  color: #592202;
 }
 .footer__social:hover {
   color: var(--first-color);
@@ -418,7 +420,7 @@ img {
     display: none;
   }
   .nav__link {
-    color: #4a4a4a;
+    color: #ffff;
   }
   .nav__link:hover {
     color: var(--white-color);
@@ -426,6 +428,8 @@ img {
   .active::after {
     background-color: var(--white-color);
   }
+
+
 
   .home__container {
     height: 100vh;
