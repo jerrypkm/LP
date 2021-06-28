@@ -1,5 +1,6 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 /*===== VARIABLES CSS =====*/
 :root {
@@ -88,6 +89,8 @@ img {
 }
 .section-title {
   position: relative;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 300 !important;
   font-size: var(--h2-font-size);
   color: var(--dark-color);
   margin: var(--mb-4) 0;
@@ -428,8 +431,6 @@ img {
   .active::after {
     background-color: var(--white-color);
   }
-
-
 
   .home__container {
     height: 100vh;
