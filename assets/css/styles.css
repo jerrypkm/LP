@@ -90,7 +90,7 @@ img {
 .section-title {
   position: relative;
   font-family: "Poppins", sans-serif !important;
-  font-weight: 300 !important;
+  font-weight: 600 !important;
   font-size: var(--h2-font-size);
   color: var(--dark-color);
   margin: var(--mb-4) 0;
@@ -193,6 +193,7 @@ img {
   row-gap: 5rem;
 }
 .home__title {
+  font-family: "Poppins", sans-serif !important;
   align-self: flex-end;
   font-size: var(--big-font-size);
   color: var(--white-color);
